@@ -1,0 +1,61 @@
+.bottom2{
+    display: flex;
+    background-color: #252830;
+    .foot_bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 50px 0 46px;
+    @media (max-width: 767px){
+        flex-direction: column;
+    }
+        .logo_bottom{
+            display: flex;
+            margin-right: 22px;
+        @media (max-width: 767px){
+            margin-bottom: 15px;
+        }
+            }
+        .text_bottom{
+            display: flex;
+            flex-direction: column;
+            margin-right: auto;
+            font-size: 16px;
+            font-family: "Ubuntu";
+            color: rgb(255, 255, 255);
+            line-height: 1.688;
+        @media (max-width: 767px){
+            margin-right: 0;
+            margin-bottom: 15px;
+            }
+            a{
+                color: #1c9e86;
+                }
+        }
+        .social{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            div{
+                margin-right: 16px;
+            @media (max-width: 767px){
+            margin-bottom: 15px;
+            }
+            &:last-child{
+                margin-right: 0;
+                }
+            }
+        }
+    }  
+}
+
+
+
+
+
+
+
+
+

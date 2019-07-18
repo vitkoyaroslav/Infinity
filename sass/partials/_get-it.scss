@@ -1,0 +1,60 @@
+.getIt{
+	height:402px;
+	width:100%;
+	font-family: $font-family-main;
+@media (min-width: 1360px) and (max-width: 1919px) {}
+@media (min-width: 768px) and (max-width: 1359px){
+	min-width: 760px;
+	width:100%;
+}
+@media (min-width: 320px) and (max-width: 767px){
+	height:500px;
+}
+h3{
+	font-size: 3.5em;
+	color:#4c4c4c;
+	text-align: center;
+	padding:96px 0 20px 0;
+	font-weight:400;
+@media (min-width: 320px) and (max-width: 767px){
+	font-size:3em;
+	padding:96px 4px 20px 4px;
+}	
+}
+p{
+	font-size:1em;
+	color:#a9aaad;
+	padding:20px 0;
+	text-align: center;
+@media (min-width: 320px) and (max-width: 767px){
+	font-size:1.2em;
+	width:90%;
+}	
+a{
+	display:inline-block;
+	color:#85dbca;
+	text-align: center;
+}	
+}
+.container{
+	display:flex;
+	justify-content: center;
+	padding:20px 0 42px 0;
+@media (min-width: 1360px) and (max-width: 1919px) {}
+@media (min-width: 768px) and (max-width: 1359px){
+	min-width: 760px;
+	width:100%;
+}	
+@media (min-width: 320px) and (max-width: 767px){
+	display:block;
+	width:80%;
+	margin:0 auto;
+	padding:8px 12px;
+}
+
+a{
+	display:inline-block;
+	padding:0 8px;
+}	
+}
+}

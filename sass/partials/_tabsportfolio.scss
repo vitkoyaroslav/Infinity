@@ -1,0 +1,253 @@
+.tabs_portfolio{
+	width:100%;
+	position: relative;
+	margin:0 auto;
+	font-family: $font-family-main;
+@media (min-width: 1360px) and (max-width: 1919px) {}
+@media (min-width: 768px) and (max-width: 1359px) {
+	min-width: 760px;
+	width:100%;
+}
+.block-works{
+	width:1356px;
+	background-color:#f8f9fb;
+	height:518px;
+	display:flex;
+	flex-direction: column;
+	margin:0 auto;
+	align-items: center;
+@media (min-width: 1360px) and (max-width: 1919px) {
+	width:80%;
+}
+@media (min-width: 768px) and (max-width: 1359px) {
+	min-width: 760px;
+	max-width: 1350px;
+	width:80%;
+}
+@media (min-width: 320px) and (max-width: 767px){
+	min-width:318px;
+	max-width: 760px;
+	width:100%;
+}	
+.img-port{
+	padding:104px 0 22px 0;
+img{
+	width:100%;
+}	
+}
+.text-port{
+	padding:22px 0;
+p{
+	font-size:0.87em;
+	text-transform: uppercase;
+	color:#a5a5a5;
+	letter-spacing: 5px;
+	font-family: 'Ubuntu Bold';
+	text-align:center;
+}
+h4{
+	padding:10px 0;
+	color:#1abc9c;
+	font-size:3.8em;
+	letter-spacing: 10px;
+	font-weight: 300;
+@media (min-width: 320px) and (max-width: 767px){
+	font-size:2.2em;
+}	
+	
+span{
+	color:#4c4c4c;
+}	
+}	
+}
+.tabs-port{
+	padding:80px 0;
+@media (min-width: 320px) and (max-width: 767px){
+    display:flex;
+    flex-wrap:wrap;	
+}	
+
+li{
+	display:inline-block;
+	height:40px;
+	background-color:#1abc9c;
+@media (min-width: 320px) and (max-width: 767px){
+	width:50%;
+}	
+a{
+	display:block;
+	padding:14px 22px;
+	text-align:center;
+	color:#ffffff;
+	&:hover{
+	    background-color:#000000;
+	}
+@media (min-width: 320px) and (max-width: 767px){
+	padding:10px 12px;
+}	
+}	
+}	
+}
+}
+.tab-content{
+	display:flex;
+	flex-wrap:wrap;
+	width:1600px;
+@media (min-width: 1360px) and (max-width: 1919px) {
+	width:100%;
+}
+@media (min-width: 768px) and (max-width: 1359px) {
+	min-width: 760px;
+	max-width: 1350px;
+	width:100%;
+}
+@media (min-width: 320px) and (max-width: 767px){
+	min-width: 318px;
+	max-width: 760px;
+	width:100%;
+}	
+.front{
+	display:block;			
+.behind{
+    position: relative;
+    display:none;
+.sublist_behind{
+	position: absolute;
+	top:20px;
+	left:20px;
+@media (min-width: 768px) and (max-width: 1359px){
+	display:flex;
+	flex-wrap: wrap;
+    left:0;
+}	
+@media (min-width: 320px) and (max-width: 767px){
+    display:flex;
+    flex-wrap: wrap;
+    left:0;	
+    top:0;
+}	
+li{
+	display:inline-block;
+@media (min-width: 768px) and (max-width: 1359px){
+	width:25%;
+}
+@media (min-width: 320px) and (max-width: 767px){
+	width:50%;
+}	
+	
+a{
+	display:block;
+	padding:6px 8px;
+	border-radius:6px;
+	font-size:0.81em;
+	color:#72c392;
+	background-color:#f2ede8;
+@media (min-width: 320px) and (max-width: 767px){
+	font-size:0.75em;
+	padding:4px 6px;
+}	
+}	
+}	
+} 
+p{
+	position: absolute;
+	width:100%;
+	bottom:0;
+	height: 70px;
+	background-color:#252830;
+	color:#ffffff;
+@media (min-width: 768px) and (max-width: 1359px){
+	height:60px;
+}	
+@media (min-width: 320px) and (max-width: 767px){
+    height:50px;
+
+}	
+span{
+    display:block;	
+}	
+}  
+}	
+}
+.t-one {
+	width:25%;
+	/*@include hover_portfolio;*/	
+@media (min-width: 320px) and (max-width: 767px){
+	width:50%;
+}			
+}
+.t-two {
+	width:25%;
+	@include hover_portfolio;
+@media (min-width: 320px) and (max-width: 767px){
+	width:50%;
+}	
+.behind{
+	@include hover_portfolio_behind;
+}	
+}	
+.t-three {
+	width:25%;
+	@include hover_portfolio;
+@media (min-width: 320px) and (max-width: 767px){
+	width:50%;
+}	
+.behind{
+	@include hover_portfolio_behind;
+}	
+}
+.t-four {
+	width:25%;
+	@include hover_portfolio;
+@media (min-width: 320px) and (max-width: 767px){
+	width:50%;
+}	
+.behind{
+	@include hover_portfolio_behind;
+}	
+}
+.t-five {
+	width:25%;			
+@media (min-width: 320px) and (max-width: 767px){
+	width:50%;
+}	
+.behind{
+	@include hover_portfolio_behind;
+}	
+}
+.t-six {
+	width:25%;
+	@include hover_portfolio;
+@media (min-width: 320px) and (max-width: 767px){
+	width:50%;
+}	
+.behind{
+	@include hover_portfolio_behind;
+}	
+}
+.t-seven {
+	width:25%;
+	@include hover_portfolio;
+@media (min-width: 320px) and (max-width: 767px){
+	width:50%;
+}	
+.behind{
+	@include hover_portfolio_behind;
+}	
+}	
+.t-eight {
+	width:25%;
+	@include hover_portfolio;
+@media (min-width: 320px) and (max-width: 767px){
+	width:50%;
+}	
+.behind{
+	@include hover_portfolio_behind;
+}	
+}	
+}
+}
+		
+@media (min-width: 320px) and (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 1359px) {}
+@media (min-width: 1360px) and (max-width: 1919px) {}

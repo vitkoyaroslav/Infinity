@@ -1,0 +1,49 @@
+.slider {
+	width: 100vw;
+	height: 628px;
+	.first {
+		width: 100vw;
+		height: 628px;
+		background-color: #a5a5a5;
+		text-align: center;
+	}
+	.second {
+		width: 100vw;
+		height: 628px;
+		background-color: #8f8f8f;
+	}
+	.slide {
+		text-align: center;
+		.avatar {
+			margin: 100px auto 46px auto;
+		}
+		.raiting {
+			margin: 0 auto 42px auto;
+			.r8 {
+				margin-right: 4px;
+				display: inline-block;
+			}
+		}
+		p {
+			color: #ffffff;
+			font-family: "Ubuntu";
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 27px;
+			margin-bottom: 42px;
+		}
+		a {
+			color: #ffffff;
+			font-family: "Ubuntu";
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 27px;
+			&:before {
+				content: url(../images/ico_twit.png);
+				position: relative;
+				top: 2px;
+				right: 2px;
+			}
+		}
+	}
+}

@@ -1,0 +1,148 @@
+.people_believe{
+	width: 100%;
+	height: 390px;
+	display:block;
+	position:relative;
+	overflow: hidden;
+	background: #141519;
+	h3{
+	display:block;
+	position:relative;
+	overflow: hidden;
+	margin: 82px auto 38px;
+	height: 25px;
+	text-align: center;
+	color: #f9f9f9;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	}
+	.people_believe_block{
+		margin: 20px auto 0;
+  	width: 100%;
+		display: flex;
+    position: relative;
+    overflow: hidden;
+  	flex-wrap: wrap;
+  	flex-direction:row;
+  	justify-content: space-between;
+  	align-items: center;
+		li{
+			display: block;
+	    position: relative;
+	    overflow: hidden;
+			width: 134px;
+			height: 160px;
+			background: #141519;
+			img{
+				width: 50px;
+				height: 50px;
+				margin: 0 auto 0 auto;
+				display:block;
+				position:relative;
+				overflow: hidden;
+				text-align: center;
+			}
+			p{
+				display:block;
+				position:relative;
+				overflow: hidden;
+				margin: 18px auto 0;
+				height: 40px;
+				width: 104px;
+				text-align: center;
+				color: #f9f9f9;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 34px;
+				font-weight: 400;
+			}
+			span{
+				display:block;
+				position:relative;
+				overflow: hidden;
+				margin: 34px auto 0;
+				height: 20px;
+				text-align: center;
+				color: #f9f9f9;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 18px;
+				font-weight: 400;
+			}
+		li:last-child{
+			margin-right: 0;
+		}
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+	.people_believe{
+		width:768px;
+		height: auto;
+			h3{
+			margin: 30px auto 38px;
+			font-size: 20px;
+			}
+			.people_believe_block{
+				margin: 20px auto 0;
+		  	width: 760px;
+				li{
+					width: 134px;
+					height: 160px;
+					margin-bottom: 30px;
+					img{
+					}
+					p{
+						margin: 18px auto 0;
+						height: 40px;
+						width: 104px;
+					}
+					span{
+						margin: 34px auto 0;
+						height: 20px;
+					}
+				}
+				li:first-child{
+						margin-left: 20px;
+					}
+				li:last-child{
+					margin-right: 20px;
+				}
+
+			}
+		}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+		.people_believe{
+			width: 100%;
+			height: auto;
+				h3{
+				margin: 16px auto 18px;
+				font-size: 18px;
+				height: 48px;
+				line-height: 24px;
+				}
+				.people_believe_block{
+					margin: 20px auto 0;
+			  	width: 100%;
+					height: auto;
+					li{
+						width: 200px;
+						height: 160px;
+						margin: 0 auto 30px;
+						img{
+						}
+						p{
+							margin: 14px auto 0;
+							height: 40px;
+							width: 104px;
+						}
+						span{
+							margin: 14px auto 0;
+							height: 20px;
+						}
+					}
+				}
+			}
+	}
